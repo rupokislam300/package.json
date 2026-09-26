@@ -1,1 +1,13 @@
-# package.json
+{
+  "name": "alamin-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "dotenv": "^17.2.2",
+    "openai": "^5.12.0"
+  }
+} 
